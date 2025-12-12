@@ -128,7 +128,6 @@ body{
     max-width: 700px;
     padding: 25px;
     background: rgba(0,0,0,0.35);
-    backdrop-filter: blur(4px);
 }
 .hero-container .hero-content h2{
     font-size: 3rem;
@@ -199,10 +198,10 @@ body{
     text-align: justify;
     padding: 0px 10px;
     color: #646464;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 14pt;
-		font-weight: 400;
-		line-height: 1.75;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: 400;
+	line-height: 1.75;
     letter-spacing: 1.5px;
 }
 
