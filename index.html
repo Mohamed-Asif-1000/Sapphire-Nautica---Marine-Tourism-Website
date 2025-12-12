@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapphire Nautica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Aref+Ruqaa+Ink:wght@400;700&family=Carattere&family=Charm:wght@400;700&family=Jua&family=Kalam:wght@300;400;700&family=Kameron:wght@400..700&family=Kaushan+Script&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Manufacturing+Consent&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Paprika&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- This Section Contains the Navigation Bar Contents-->
+    <header>
+        <div class="navigation-container">
+            <div class="logo-container">
+                <img src="images/logo3.png" alt="Sapphire Logo">
+                <p>Sapphire Nautica</p>
+            </div>
+            <div class="menu-container">
+                <nav>
+                    <ul id="navigation-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experiences">Experiences</a></li>
+                        <li><a href="#cuisine">Cuisine</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#restspot">Rest Spots</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="menu-toggle" id="menuIcon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Below Section Contains the Hero Section -->
+    <section class="hero-container" id="home">
+            <div class="hero-image">
+                <img src="images/hero-image-1.jpg" alt="Sea Shore Image" class="images active">
+                <img src="images/hero-image-2.jpg" alt="Snorkling Image" class="images">
+                <img src="images/hero-image-3.jpg" alt="Wave Surfing Image" class="images">
+                <img src="images/hero-image-4.jpg" alt="Luxury Cruiser Image" class="images">
+            </div>
+            <div class="hero-content">
+                <h2 class="animate">Discover the Ocean's Magic</h2>
+                <p class="animate">From coral gardens to deep-sea dives, Marine Explorer brings the ocean to life.</p>
+                <div class="hero-content-button">
+                    <button class="hero-button-1">Explore Now</button>
+                    <button class="hero-button-2">Marine Tourism Packages</button>
+                </div>
+            </div>
+     </section>
+     <!-- Below Section Contains the About Section-->
+     <section class="about-container" id="about">
+            <div class="about-text-content">
+                <h2 class="animate">About Sapphire Nautica</h2>
+                <p class="animate delay1"><b>Sapphire Nautica</b> is a premier marine tourism company dedicated to bringing the magic of the ocean to life. From vibrant coral reefs and deep-sea dives to luxury yacht experiences and coastal adventures, we craft unforgettable journeys for every traveler. Our expert guides ensure safety, comfort, and personalized service while showcasing the wonders of marine life.</p>
+                <p class="animate delay2">Guests can explore breathtaking underwater worlds, enjoy curated beachside experiences, and indulge in fresh local cuisine. With a strong commitment to sustainability and ocean conservation, Sapphire Nautica blends adventure, relaxation, and education, creating memories that connect every guest with the beauty and mystery of the sea.</p>
+            </div>
+            <div class="animate about-image-content">
+                <img src="images/sapphire-1.jpg" alt="Sapphire Company Board Members">
+            </div>
+    </section>
+    <!-- Below Section Contains the Experiences Section-->
+    <section class="experiences-container" id="experiences">
+        <h2 class="animate">Unforgettable Marine Experiences</h2>
+        <div class="experience-card-container animate">
+            <div class="card-content">
+                <img src="images/luxury-cruise.jpg" alt="Luxury Cruises Image">
+                <h3 class="animate delay1">Luxury Cruises</h3>
+                <p class="animate delay2">Relax aboard stunning ocean cruises with sunset dining and island exploration.</p>
+            </div>
+            <div class="card-content">
+                <img src="images/scuba-diving.jpg" alt="Scuba Diving Image">
+                <h3 class="animate delay1">Scuba Diving</h3>
+                <p class="animate delay2">Dive into vibrant coral reefs guided by certified experts and discover underwater life.</p>
+            </div>
+            <div class="card-content">
+                <img src="images/marine-cuisine.jpg" alt="Marine Cuisine Image">
+                <h3 class="animate delay1">Marine Cuisine</h3>
+                <p class="animate delay2">Savor coastal delicacies freshly caught and prepared by top chefs by the beach.</p>
+            </div>
+            <div class="card-content">
+                <img src="images/adventure.jpg" alt="Adventure Packages Image">
+                <h3 class="animate delay1">Adventure Packages</h3>
+                <p class="animate delay2">Custom packages for couples, families, and thrill-seekers. Experience your dream ocean journey.</p>
+            </div>
+        </div>
+    </section>
+    <!--  Below Section Contains the Cuisine Section -->
+    <section class="cuisine-container" id="cuisine">
+        <h2 class="animate">Delight in Ocean Cuisine</h2>
+        <div class="cuisine-card-container animate">
+            <div class="cuisine-card-content">
+                <img src="images/seafood-platter.jpg" alt="Sea Food Platters Image">
+                <h3 class="animate delay1">Seafood Platters</h3>
+                <p class="animate delay2">Freshly caught lobsters, prawns, and crabs with tropical spices</p>
+            </div>
+            <div class="cuisine-card-content">
+                <img src="images/grilled-fish-1.jpg" alt="Grilled Fish Image">
+                <h3 class="animate delay1">Grilled Coastal Fish</h3>
+                <p class="animate delay2">Locally sourced fish grilled over coconut wood for rich flavor.</p>
+            </div>
+            <div class="cuisine-card-content">
+                <img src="images/refreshments.jpg" alt="Tropical Refreshments Image">
+                <h3 class="animate delay1">Tropical Refreshments</h3>
+                <p class="animate delay2">Cool down with exotic fruit juices and coconut blends by the beach.</p>
+            </div>
+            <div class="cuisine-card-content">
+                <img src="images/bbq.jpg" alt="Oceanfront BBQ Night Image">
+                <h3 class="animate delay1">Oceanfront BBQ Night</h3>
+                <p class="animate delay2">Savor smoky flavors from live barbecue stations by the shore Ideal for beachside celebrations.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Below Section Contains the Activities Section -->
+    <section class="activities-container" id="activities">
+        <h2 class="animate">Exciting Marine Activities</h2>
+        <div class="activities-card-container animate">
+            <div class="activities-card-content">
+                <img src="images/kayaking.jpg" alt="Kayaking Adventures Image">
+                <h3 class="animate delay1">Kayaking Adventures</h3>
+                <p class="animate delay2">Paddle through serene lagoons surrounded by mangroves and coral reefs.</p>
+            </div>
+            <div class="activities-card-content">
+                <img src="images/snorkeling.jpg" alt="Snorkeling Tours Image">
+                <h3 class="animate delay1">Snorkeling Tours</h3>
+                <p class="animate delay2">Discover marine life up close and swim beside colorful fish and coral.</p>
+            </div>
+            <div class="activities-card-content">
+                <img src="images/island-hopping.jpg" alt="Island Hopping Image">
+                <h3 class="animate delay1">Island Hopping</h3>
+                <p class="animate delay2">Explore untouched islands, local cultures, and beautiful beaches.</p>
+            </div>
+            <div class="activities-card-content">
+                <img src="images/jet-ski.jpg" alt="Jet Ski Adventure Image">
+                <h3 class="animate delay1">Jet Ski Adventure</h3>
+                <p class="animate delay2">Race across turquoise waves and feel the ocean breeze on high-speed jet skis Ideal for adrenaline lovers</p>
+            </div>
+        </div>
+    </section>
+    <!-- Below Section Contains the Restspot Section -->
+    <section class="restspot-container" id="restspot">
+        <h2 class="animate">Relax at Our Rest Spots</h2>
+        <div class="restspot-card-container animate">
+            <div class="restspot-card-content">
+                <img src="images/beach-villas.jpg" alt="Beachfront Villas Image">
+                <h3 class="animate delay1">Beachfront Villas</h3>
+                <p class="animate delay2">Private villas overlooking turquoise waters with open-air lounges.</p>
+            </div>
+            <div class="restspot-card-content">
+                <img src="images/cruise-cabin.jpg" alt="Luxury Cruise Cabins Image">
+                <h3 class="animate delay1">Luxury Cruise Cabins</h3>
+                <p class="animate delay2">Enjoy ocean-view suites with premium dining and entertainment.</p>
+            </div>
+            <div class="restspot-card-content">
+                <img src="images/hammocks.jpg" alt="Seaside Hammocks Image">
+                <h3 class="animate delay1">Seaside Hammocks</h3>
+                <p class="animate delay2">Relax under palm trees with gentle waves as your soundtrack.</p>
+            </div>
+            <div class="restspot-card-content">
+                <img src="images/cliff-lounge-1.jpg" alt="Cliffside Viewpoint Lounge Image">
+                <h3 class="animate delay1">Cliffside Viewpoint Lounge</h3>
+                <p class="animate delay2">Relax on panoramic decks overlooking the endless horizon and embrace the calm of the sea.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Below Section Contains the Videos Section-->
+    <section class="videos-container" id="videos">
+        <h2 class="animate">Explore through Videos</h2>
+        <div class="video-grid animate">
+            <div class="video-box">
+                <video src="videos/video1.mp4" controls autoplay loop muted controlsList="nodownload" playsinline></video>
+                <div class="video-caption">Luxury Cruise</div>
+            </div>
+            <div class="video-box">
+                <video src="videos/video2.mp4" controls autoplay loop muted controlsList="nodownload" playsinline></video>
+                <div class="video-caption">Ocean Cuisine</div>
+            </div>
+            <div class="video-box">
+                <video src="videos/video3.mp4" controls autoplay loop muted controlsList="nodownload" playsinline></video>
+                <div class="video-caption">Undersea Wonders</div>
+            </div>
+            <div class="video-box">
+                <video src="videos/video4.mp4" controls autoplay loop muted controlsList="nodownload" playsinline></video>
+                <div class="video-caption">Wave Surfing</div>
+            </div>
+            <div class="video-box">
+                <video src="videos/video5.mp4" controls autoplay loop muted controlsList="nodownload" playsinline></video>
+                <div class="video-caption">Beachside Games</div>
+            </div>
+            <div class="video-box">
+                <video src="videos/video6.mp4" controls autoplay loop muted controlsList="nodownload" playsinline></video>
+                <div class="video-caption">Boat Exploring</div>
+            </div>
+        </div>
+    </section>
+    <!-- Below Section Contains the Gallery Section -->
+   <section class="gallery-container" id="gallery">
+        <h2 class="animate">Gallery of Memories</h2>
+            <div class="gallery-grid">
+                <div class="img-box">
+                    <img src="images/gallery1.jpg" alt="Ocean Sunset Image">
+                    <div class="image-caption">Ocean Sunset</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery2.jpg" alt="Boat Explore Image">
+                    <div class="image-caption">Boat Explore</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery3.jpg" alt="Island Hopping Image">
+                    <div class="image-caption">Island Hopping</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery4.jpg" alt="Cruise Explore Image">
+                    <div class="image-caption">Cruise Explore</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery5.jpg" alt="Cliffside View">
+                    <div class="image-caption">Cliffside View</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery6.jpg" alt="Coral Beauty Image">
+                    <div class="image-caption">Coral Beauty</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery7.jpg" alt="Jet Ski Adventure Image">
+                    <div class="image-caption">Jet Ski Adventure</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery8.jpg" alt="Dolphine Racing Image">
+                    <div class="image-caption">Dolphin Racing</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery9.jpg" alt="Snorkeling Tour Image">
+                    <div class="image-caption">Snorkeling Tour</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery10.jpg" alt="Ocean Horizon Image">
+                    <div class="image-caption">Ocean Horizon</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery11.jpg" alt="">
+                    <div class="image-caption">Family Lounge</div>
+                </div>
+                <div class="img-box">
+                    <img src="images/gallery12.jpg" alt="Underwater Explore Image">
+                    <div class="image-caption">Underwater EXplore</div>
+                </div>
+            </div>
+    </section>
+    <!-- Footer Section Begins From Here -->
+    <footer class="contact-footer-section" id="contact">
+        <div class="footer-content-wrapper animate">
+            
+            <div class="contact-top-area">
+                
+                <div class="footer-join-form">
+                    <h3>Join the Sapphire Nautica Crew</h3>
+                    <p>Sign up for exclusive offers and our monthly marine newsletter!</p>
+                    <form class="join-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email Address" required>
+                        <textarea placeholder="Tell us about your dream trip (Optional)"></textarea>
+                        <button type="submit">Subscribe & Explore</button>
+                    </form>
+                </div>
+
+                <div class="footer-enhancement-content">
+                    <h3>Why Choose Sapphire Nautica?</h3>
+                    <ul>
+                        <li><i class="fas fa-ship"></i> Unrivaled Fleet Quality :- Modern, eco-friendly yachts and vessels.</li>
+                        <li><i class="fas fa-map-marked-alt"></i> Expert Local Guides :- Discover hidden coves and pristine reefs.</li>
+                        <li><i class="fas fa-user-shield"></i> Certified Safety & Service :- Dedicated crew ensuring comfort and security.</li>
+                        <li><i class="fas fa-leaf"></i> Sustainable Tourism Focus :- Committed to protecting marine ecosystems.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-links-area">
+                
+                <div class="footer-links-box">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> info@sapphirenautica.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Gotham city, USA , 89546</p>
+                </div>
+
+                <div class="footer-links-box">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#videos">Videos</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="footer-links-box">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p class="slogan">Your Journey Awaits.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright-area">
+            <p>&copy; 2025 Sapphire Nautica Marine Tourism. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Scroll Up Button Code is Below -->
+    <button id="scrollUp" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
+    <script src="main.js"></script>
+</body>
+</html>
